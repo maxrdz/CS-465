@@ -3,6 +3,6 @@ var router = express.Router();
 const ctrlTravel = require('../controllers/travel');
 
 /* GET travel page. */
-router.get('/', ctrlTravel.index);
+router.get('/', ctrlTravel.travel);
 
 module.exports = router;
